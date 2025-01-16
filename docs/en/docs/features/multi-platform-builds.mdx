@@ -21,6 +21,7 @@ Each browser has its own set of requirements and configurations for extensions. 
     npm: "npx extension build",
     pnpm: "pnpx extension build",
     yarn: "yarn dlx extension build",
+    bun: "bun x extension build",
   }}
 />
 
@@ -36,6 +37,7 @@ You can also target specific browsers using the `--browser` flag:
     npm: "npx extension build --browser=firefox",
     pnpm: "pnpx extension build --browser=firefox",
     yarn: "yarn dlx extension build --browser=firefox",
+    bun: "bun x extension build --browser=firefox",
   }}
 />
 
@@ -51,6 +53,7 @@ all necessary assets and manifest files for the specified browser:
     npm: "npx extension build --zip",
     pnpm: "pnpx extension build --zip",
     yarn: "yarn dlx extension build --zip",
+    bun: "bun x extension build --zip",
   }}
 />
 
@@ -67,6 +70,7 @@ This includes necessary polyfills during the build process to ensure your extens
     npm: "npx extension build --polyfill",
     pnpm: "pnpx extension build --polyfill",
     yarn: "yarn dlx extension build --polyfill",
+    bun: "bun x extension build --polyfill",
   }}
 />
 

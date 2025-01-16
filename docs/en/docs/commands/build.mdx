@@ -29,6 +29,7 @@ To use the `build` command, run:
     npm: "extension build [extension-path | extension-url] [options]",
     pnpm: "extension build [extension-path | extension-url] [options]",
     yarn: "extension build [extension-path | extension-url] [options]",
+    bun: "extension build [extension-path | extension-url] [options]",
   }}
 />
 
@@ -75,6 +76,7 @@ dist/
     npm: "extension build ./my-extension --browser=edge,chrome --zip --zipFilename=my-extension.zip",
     pnpm: "extension build ./my-extension --browser=edge,chrome --zip --zipFilename=my-extension.zip",
     yarn: "extension build ./my-extension --browser=edge,chrome --zip --zipFilename=my-extension.zip",
+    bun: "extension build ./my-extension --browser=edge,chrome --zip --zipFilename=my-extension.zip",
   }}
 />
 
@@ -89,6 +91,7 @@ In this example, the build will target Edge and Chrome, with the output zipped a
     npm: "extension build ./my-extension --browser=chrome --silent",
     pnpm: "extension build ./my-extension --browser=chrome --silent",
     yarn: "extension build ./my-extension --browser=chrome --silent",
+    bun: "extension build ./my-extension --browser=chrome --silent",
   }}
 />
 
@@ -103,6 +106,7 @@ Here, the build is for Chrome, and the `--silent` flag is used to suppress logs 
     npm: "extension build ./my-extension --browser=all --polyfill",
     pnpm: "extension build ./my-extension --browser=all --polyfill",
     yarn: "extension build ./my-extension --browser=all --polyfill",
+    bun: "extension build ./my-extension --browser=all --polyfill",
   }}
 />
 

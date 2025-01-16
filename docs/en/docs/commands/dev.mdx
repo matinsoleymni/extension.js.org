@@ -24,6 +24,7 @@ You can run the `dev` command with the following syntax:
     npm: "extension dev [extension-path | extension-url] [options]",
     pnpm: "extension dev [extension-path | extension-url] [options]",
     yarn: "extension dev [extension-path | extension-url] [options]",
+    bun: "extension dev [extension-path | extension-url] [options]",
   }}
 />
 
@@ -36,7 +37,8 @@ If no path is provided, it defaults to the current working directory.
   command={{
     npm: "extension dev path/to/my-extension --template=react",
     pnpm: "extension dev path/to/my-extension --template=react",
-    yarn: "extension dev path/to/my-extension --template=react",
+    yarn: "extension dev [extension-path | extension-url] [options]",
+    bun: "extension dev [extension-path | extension-url] [options]",
   }}
 />
 
@@ -68,6 +70,7 @@ Below is a breakdown of the available flags for the `dev` command:
     npm: "extension dev ./my-extension",
     pnpm: "extension dev ./my-extension",
     yarn: "extension dev ./my-extension",
+    bun: "extension dev ./my-extension",
   }}
 />
 
@@ -80,6 +83,7 @@ Below is a breakdown of the available flags for the `dev` command:
     npm: "extension dev https://example.com/my-extension",
     pnpm: "extension dev https://example.com/my-extension",
     yarn: "extension dev https://example.com/my-extension",
+    bun: "extension dev https://example.com/my-extension",
   }}
 />
 
@@ -92,6 +96,7 @@ Below is a breakdown of the available flags for the `dev` command:
     npm: "extension dev ./my-extension --browser firefox",
     pnpm: "extension dev ./my-extension --browser firefox",
     yarn: "extension dev ./my-extension --browser firefox",
+    bun: "extension dev ./my-extension --browser firefox",
   }}
 />
 
@@ -104,6 +109,7 @@ Below is a breakdown of the available flags for the `dev` command:
     npm: "extension dev ./my-extension --browser all",
     pnpm: "extension dev ./my-extension --browser all",
     yarn: "extension dev ./my-extension --browser all",
+    bun: "extension dev ./my-extension --browser all",
   }}
 />
 
@@ -116,6 +122,7 @@ Below is a breakdown of the available flags for the `dev` command:
     npm: "extension dev ./my-extension --gecko-binary /path/to/brave",
     pnpm: "extension dev ./my-extension --gecko-binary /path/to/brave",
     yarn: "extension dev ./my-extension --gecko-binary /path/to/brave",
+    bun: "extension dev ./my-extension --gecko-binary /path/to/brave",
   }}
 />
 

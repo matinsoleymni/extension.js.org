@@ -1,14 +1,14 @@
 [
-  {
-    "name": "immediately",
-    "label": "🔥 Get Started Immediately"
-  },
-  {
-    "name": "create-your-first-extension",
-    "label": "Create Your First Extension"
-  },
-  {
-    "name": "templates",
-    "label": "Templates"
-  }
+	{
+		"name": "immediately",
+		"label": "🔥 Get Started Immediately"
+	},
+	{
+		"name": "create-your-first-extension",
+		"label": "Create Your First Extension"
+	},
+	{
+		"name": "templates",
+		"label": "Templates"
+	}
 ]

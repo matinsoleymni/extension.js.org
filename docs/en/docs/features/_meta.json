@@ -1,17 +1,20 @@
 [
-  {
-    "name": "cross-browser-compatibility",
-    "label": "Cross-Browser Compatibility"
-  },
-  { "name": "browser-specific-fields", "label": "Browser-Specific Manifest Fields" },
-  {
-    "name": "special-folders",
-    "label": "Special Folders (Off-Manifest assets)"
-  },
-  { "name": "environment-variables", "label": "Environment Variables" },
-  { "name": "extension-configuration", "label": "extension.config.js" },
-  { "name": "webpack-configuration", "label": "Webpack Support" },
-  { "name": "reload-and-hmr", "label": "Reload and Hot-Module Replacement" },
-  { "name": "path-resolution", "label": "Path Resolution" },
-  { "name": "multi-platform-builds", "label": "Multi-Platform Builds" }
+	{
+		"name": "cross-browser-compatibility",
+		"label": "Cross-Browser Compatibility"
+	},
+	{
+		"name": "browser-specific-fields",
+		"label": "Browser-Specific Manifest Fields"
+	},
+	{
+		"name": "special-folders",
+		"label": "Special Folders (Off-Manifest assets)"
+	},
+	{ "name": "environment-variables", "label": "Environment Variables" },
+	{ "name": "extension-configuration", "label": "extension.config.js" },
+	{ "name": "webpack-configuration", "label": "Webpack Support" },
+	{ "name": "reload-and-hmr", "label": "Reload and Hot-Module Replacement" },
+	{ "name": "path-resolution", "label": "Path Resolution" },
+	{ "name": "multi-platform-builds", "label": "Multi-Platform Builds" }
 ]

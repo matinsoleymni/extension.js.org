@@ -1,22 +1,22 @@
 [
-  {
-    "name": "browsers-available",
-    "label": "Browsers Available"
-  },
-  {
-    "name": "browser-preferences",
-    "label": "Browser Preferences"
-  },
-  {
-    "name": "browser-flags",
-    "label": "Browser Flags"
-  },
-  {
-    "name": "browser-profile",
-    "label": "Browser Profile"
-  },
-  {
-    "name": "running-other-browsers",
-    "label": "Running Other Browsers"
-  }
+	{
+		"name": "browsers-available",
+		"label": "Browsers Available"
+	},
+	{
+		"name": "browser-preferences",
+		"label": "Browser Preferences"
+	},
+	{
+		"name": "browser-flags",
+		"label": "Browser Flags"
+	},
+	{
+		"name": "browser-profile",
+		"label": "Browser Profile"
+	},
+	{
+		"name": "running-other-browsers",
+		"label": "Running Other Browsers"
+	}
 ]
